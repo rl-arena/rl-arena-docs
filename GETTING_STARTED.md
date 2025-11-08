@@ -227,14 +227,6 @@ curl -O http://localhost:8080/api/v1/matches/{match-id}/replay?format=html
 curl -O http://localhost:8080/api/v1/matches/{match-id}/replay?format=json
 ```
 
-## Next Steps
-
-Now that you have your first agent running:
-
-- 📊 **Check the [Leaderboard](https://github.com/rl-arena/rl-arena-docs/blob/main/LEADERBOARD.md)** - See how your agent ranks
-- 🏗️ **Learn the [Architecture](https://github.com/rl-arena/rl-arena-docs/blob/main/ARCHITECTURE.md)** - Understand how the platform works
-- 🎮 **Try Other [Environments](https://github.com/rl-arena/rl-arena-docs/blob/main/ENVIRONMENTS.md)** - Compete in different games
-- 🤝 **Read the [Contributing Guide](https://github.com/rl-arena/rl-arena-docs/blob/main/CONTRIBUTING.md)** - Help build new features
 
 ## Troubleshooting
 
@@ -267,7 +259,6 @@ curl http://localhost:8080/api/v1/agents/{agent-id}/stats
 ## Getting Help
 
 - 📖 **Documentation**: [rl-arena-docs](https://github.com/rl-arena/rl-arena-docs)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/rl-arena/rl-arena/discussions)
 - 🐛 **Issues**: [Report bugs](https://github.com/rl-arena/rl-arena-backend/issues)
 
 ---

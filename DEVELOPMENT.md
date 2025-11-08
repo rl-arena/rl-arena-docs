@@ -708,4 +708,4 @@ python -m grpc_tools.protoc \
 For more information:
 - [Architecture](ARCHITECTURE.md) - System design
 - [API Reference](API_REFERENCE.md) - API documentation
-- [Contributing](../CONTRIBUTING.md) - Contribution guidelines
+- [Contributing](https://github.com/rl-arena/.github/blob/main/CONTRIBUTING.md) - Contribution guidelines

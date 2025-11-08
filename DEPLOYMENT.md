@@ -494,53 +494,7 @@ spec:
 kubectl apply -f ingress.yaml
 ```
 
-## Production Checklist
 
-### Security
-
-- [ ] Change default passwords and secrets
-- [ ] Use strong JWT secret (256-bit minimum)
-- [ ] Enable HTTPS/TLS with valid certificates
-- [ ] Configure CORS for production domains
-- [ ] Enable PostgreSQL SSL mode
-- [ ] Use private container registry
-- [ ] Scan Docker images for vulnerabilities
-- [ ] Enable Kubernetes RBAC
-- [ ] Use network policies for pod isolation
-- [ ] Enable pod security policies
-
-### Performance
-
-- [ ] Configure resource limits for all pods
-- [ ] Enable horizontal pod autoscaling
-- [ ] Set up database connection pooling
-- [ ] Configure caching (leaderboard, stats)
-- [ ] Use CDN for static assets
-- [ ] Optimize database indexes
-- [ ] Enable gRPC keepalive
-- [ ] Configure appropriate replica counts
-
-### Reliability
-
-- [ ] Set up liveness and readiness probes
-- [ ] Configure pod disruption budgets
-- [ ] Enable automatic restarts
-- [ ] Use StatefulSet for database
-- [ ] Configure persistent volumes
-- [ ] Set up database backups
-- [ ] Enable log aggregation
-- [ ] Configure monitoring and alerts
-
-### Monitoring
-
-- [ ] Set up Prometheus metrics
-- [ ] Configure Grafana dashboards
-- [ ] Enable application logging
-- [ ] Set up error tracking (Sentry)
-- [ ] Configure uptime monitoring
-- [ ] Set up alerting rules
-- [ ] Monitor resource usage
-- [ ] Track API response times
 
 ## Monitoring and Maintenance
 
