@@ -234,7 +234,7 @@ We welcome contributions! See the [Development Guide](DEVELOPMENT.md) for setup 
 
 RL-Arena is open source:
 - **Backend, Executor, Web, Docs**: Apache 2.0 License
-- **Environment Library**: MIT License
+- **Environment Library**: Apache 2.0 License
 
 See LICENSE files in each repository.
 
